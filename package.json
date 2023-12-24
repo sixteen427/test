@@ -24,6 +24,7 @@
 	"author": "fearandesire",
 	"license": "ISC",
 	"aliases": {
+		"@pluto-routes": "./utils/api/routes",
 		"@pluto-server-config": "./utils/serverConfig.js",
 		"@pluto-core-config": "./lib/PlutoConfig.js",
 		"@pluto-check-balance": "./utils/db/validation/checkbalance.js",

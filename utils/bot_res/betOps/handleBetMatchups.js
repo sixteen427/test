@@ -31,7 +31,6 @@ const options = {
  * 2. Evaluate the matchup and compare scores in the API to determine the winner
  * 3. Once the winner is determined, the information is sent to {@link closeWonBets} & {@link closeLostBets} to close the bets for the matchup
  */
-
 export async function handleBetMatchups() {
 	await logClr({
 		text: `[handleBetMatchups] Checking for completed games\nURL: ${url}`,

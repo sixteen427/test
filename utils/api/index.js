@@ -3,11 +3,11 @@ import cors from '@koa/cors'
 import logger from 'koa-logger'
 import bodyParser from 'koa-bodyparser'
 import logClr from '@pluto-internal-color-logger'
-import oddsRouter from '@pluto-iso-manager/odds.js'
-import checkGamesRouter from '@pluto-iso-manager/checkGames.js'
-import fetchBetsRouter from '@pluto-iso-manager/fetchBets.js'
-import fetchAccountsRouter from '@pluto-iso-manager/fetchAccounts.js'
-import fetchScheduledRouter from '@pluto-iso-manager/fetchScheduledChannels.js'
+import oddsRouter from '@pluto-routes/odds.js'
+import checkGamesRouter from '@pluto-routes/checkGames.js'
+import fetchBetsRouter from '@pluto-routes/fetchBets.js'
+import fetchAccountsRouter from '@pluto-routes/fetchAccounts.js'
+import fetchScheduledRouter from '@pluto-routes/fetchScheduledChannels.js'
 import {
 	pageNotFound,
 	responseTime,
